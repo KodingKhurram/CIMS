@@ -1,0 +1,48 @@
+
+
+
+
+.side{
+position: absolute;;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.side a{
+  background: #e74c3c;
+  color: white;
+  font-size: 20px;
+  display: block;
+  width: 170px;
+  padding: 12px;
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+  border-radius: 8px;
+  margin-left: -120px;
+  transition: 0.1s all;
+}
+
+.side a:hover{
+  margin-left:0;
+}
+
+@keyframes bganimation {
+  0%
+  {
+    background-position: 0% 60%;
+  }
+  50%{
+    background-position: 100% 60%;
+  }
+  100%{
+    background-position: 0% 60%;
+  }
+}
+
+
+.footer
+{
+top: -300px;
+}
+
